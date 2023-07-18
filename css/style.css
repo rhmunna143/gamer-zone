@@ -27,6 +27,25 @@ a {
     cursor: pointer;
 }
 
+.btn-primary {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 /* nav section */
 
 .nav-container {
@@ -85,3 +104,71 @@ span {
     height: 3rem;
     padding: 0.45rem 0.75rem;
 }
+
+/* banner section */
+
+.banner-description {
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-description h4 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: left;
+    line-height: 3rem;
+}
+
+.banner-description h2 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    text-align: left;
+    line-height: 6rem;
+}
+
+.banner-description p {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    width: fit-content;
+    text-align: left;
+    line-height: 2rem;
+}
+
+#go-btn {
+    background: #525993;
+    margin-left: 10px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .banner-container {
+    height: 100%;
+} */

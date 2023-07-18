@@ -19,8 +19,29 @@
         justify-content: center;
         text-align: center;
     }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .bn-img {
+        max-width: 90vw;
+        max-height: 100vh;
+        margin-top: 2rem;
+    }
 }
 
 
 /* tablet device */
 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .bn-img {
+        max-width: 100vw;
+        max-height: 100vh;
+        margin-top: 2rem;
+    }
+}
