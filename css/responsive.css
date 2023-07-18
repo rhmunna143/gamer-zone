@@ -1,0 +1,26 @@
+/* media query */
+
+
+/* large mobile device */
+
+@media screen and (max-width: 425px) {
+    .nav-container {
+        flex-direction: column;
+        height: fit-content;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding: 4rem;
+        line-height: 2rem;
+    }
+
+    .menu > ul {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+/* tablet device */
+
