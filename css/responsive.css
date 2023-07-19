@@ -21,7 +21,8 @@
     }
 
     .banner-container,
-    .vid-cont
+    .vid-cont,
+    .ban-cont
     {
         flex-direction: column;
     }
@@ -40,6 +41,31 @@
     .vid-cont img {
         height: auto;
         width: 90vw;
+    }
+
+    .img-2 {
+        position: relative;
+        bottom: 7rem;
+    }
+
+    .ban-cont2 {
+        flex-direction: column-reverse;
+    }
+
+    #text {
+        margin-bottom: 3rem;
+    }
+
+    .ban-img {
+        position: static;
+    }
+
+    .ban-cont {
+        height: auto;
+    }
+
+    .ban-cont2 {
+        height: auto;
     }
 }
 
