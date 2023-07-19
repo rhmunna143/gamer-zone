@@ -86,6 +86,30 @@
         height: 100%;
         width: 40%;
     }
+
+    .foot-menu ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .foot-container {
+        width: 50vw;
+        font-size: small;
+        line-height: 15px;
+        justify-content: center;
+    }
+
+    .foot-icon img {
+        width: 7%;
+    }
+
+    #fml {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        margin-top: 15px;
+    }
 }
 
 

@@ -96,6 +96,13 @@ span {
     margin-left: 0.5rem;
 }
 
+.fa-youtube {
+    color: red;
+}
+
+.fa-tiktok {
+    color: black;
+}
 
 .nav-follow {
     border-radius: 5px;
@@ -431,4 +438,78 @@ span {
     text-align: center;
     width: 90vw;
     margin: 3rem auto;
+}
+
+/* footer */
+
+.foot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0B0223;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+.logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#t2 {
+    color: #FFF;
+}
+
+.foot-menu a {
+    color: #FFF;
+    font-size: 0.8rem;
+}
+
+.foot-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.foot-icon img {
+    color: #FFF;
+    width: 2%;
+    cursor: pointer;
+}
+
+.foot-icon {
+    display: inline-flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#fml a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.fpera {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+footer {
+    background: #0B0223;
 }
