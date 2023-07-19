@@ -67,6 +67,25 @@
     .ban-cont2 {
         height: auto;
     }
+
+    .btn-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: auto;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .btn-itm {
+        width: 6rem;
+        height: 2rem;
+        font-size: 0.3rem;
+    }
+
+    .btn-itm img {
+        height: 100%;
+        width: 40%;
+    }
 }
 
 
