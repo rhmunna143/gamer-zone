@@ -205,8 +205,8 @@ span {
 #more {
     display: flex;
     padding: 10px 20px;
-    justify-content: right;
-    align-items: flex-end;
+    justify-content: right !important;
+    align-items: flex-end !important;
     gap: 10px;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -220,7 +220,7 @@ span {
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 10px;
-    text-align: right;
+    text-align: right !important;
 }
 
 .gamer-container {
@@ -356,6 +356,7 @@ span {
 .ban-img {
     position: relative;
     top: 8rem;
+    z-index: 0;
 }
 
 .txt h4 {
@@ -420,9 +421,19 @@ span {
     border-radius: 48px;
     width: 14rem;
     height: 5rem;
+    position: relative;
+    z-index: 100;
 }
 
 .btn-itm:hover {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #8758F1;
+}
+
+#itm:hover {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
